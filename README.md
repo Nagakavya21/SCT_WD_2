@@ -1,5 +1,5 @@
-#SCT_WD_2 
-#Stopwatch & Countdown Web App ⏱
+# SCT_WD_2 
+# Stopwatch & Countdown Web App ⏱
 
 A feature-rich web application for tracking time with a stopwatch and countdown timer, built using HTML, CSS, and JavaScript. Designed with a clean, responsive, and interactive interface, this app lets users track laps, run countdowns, and enjoy multiple customization options.
 
@@ -26,8 +26,7 @@ HTML5 – structure
 CSS3 – styling, animations, and dark mode
 
 JavaScript (ES6) – stopwatch, countdown, and interactivity
-
-📂 Installation & Usage:
+ 
 
 # Clone the repository
 git clone https://github.com/Nagakavya21/stopwatch.git
