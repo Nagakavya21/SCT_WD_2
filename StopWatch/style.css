@@ -1,0 +1,130 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.stopwatch-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 420px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.stopwatch-container:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 25px;
+  text-shadow: 0 0 8px rgba(255,255,255,0.5);
+}
+
+.stopwatch-circle {
+  background: rgba(255, 255, 255, 0.8);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 0 40px rgba(255,255,255,0.3), inset 0 0 30px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Glow effect when running */
+.running {
+  box-shadow: 0 0 40px #ff6ec4, 0 0 60px #7873f5, inset 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Buttons with black borders */
+.buttons button {
+  padding: 12px 28px;
+  border: 2px solid black; /* 🔥 Bold black border */
+  border-radius: 25px;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual Button Colors */
+#startBtn {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+#resetBtn {
+  background: linear-gradient(135deg, #5ee7df, #b490ca);
+}
+
+#lapBtn {
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+  border-color: #fff; /* Border turns white on hover */
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+}
+
+/* Lap Section */
+.laps {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: left;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.laps h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.laps ul {
+  list-style: none;
+}
+
+.laps li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3px;
+}
