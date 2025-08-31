@@ -6,10 +6,15 @@ A feature-rich web application for tracking time with a stopwatch and countdown 
 Key Features:
 
 🏁 Real-Time Stopwatch – Start, pause, and reset the timer with millisecond accuracy.
+
 📝 Lap Recording – Record multiple laps with automatic numbering; latest lap auto-scrolls into view.
+
 💡 Running Indicator – Stopwatch display glows while timing to indicate it’s active.
+
 🎨 Modern Design – Glassmorphism UI with animated gradient background and responsive layout.
+
 ⚡ Lap Highlights – Fastest lap highlighted in green, slowest in red for quick analysis.
+
 ✅ User-Friendly Controls – Intuitive buttons for Start, Pause, Reset, and Lap.
 
 🛠 Tech Stack:
