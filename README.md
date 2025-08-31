@@ -1,7 +1,7 @@
 # SCT_WD_2 
-# Stopwatch & Countdown Web App ⏱
+# Stopwatch Web App ⏱
 
-A feature-rich web application for tracking time with a stopwatch and countdown timer, built using HTML, CSS, and JavaScript. Designed with a clean, responsive, and interactive interface, this app lets users track laps, run countdowns, and enjoy multiple customization options.
+A feature-rich Stopwatch Web Application built using HTML, CSS, and JavaScript. This app features a clean, responsive, and interactive interface with real-time stopwatch functionality, lap recording with auto-numbering, and glowing visual indicators while running. Users can easily start, pause, reset, and track laps, with an intuitive design and smooth animations for a modern user experience.
 
 Key Features:
 
