@@ -11,8 +11,6 @@ Reset timer anytime
 
 Lap Timer – track multiple intervals while stopwatch runs 🏁
 
-Dark Mode Toggle 🌙 for modern look
-
 Countdown Timer with preset options (1, 2, 3 minutes) ⏱
 
 Time’s Up Alert 🔔 when countdown finishes
